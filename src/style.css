@@ -1,0 +1,29 @@
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.c-main {
+  display: flex;
+  height: 100vh;
+}
+
+.c-main__left, .c-main__right {
+  border: 3px solid #000;
+  flex: 1;
+  padding: 1rem;
+}
+
+.c-main__left {
+  border-right: none;
+}
+
+.c-main__right {
+
+}
+
